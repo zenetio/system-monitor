@@ -1,15 +1,10 @@
-# CppND-System-Monitor
+# System-Monitor
 
-Starter code for System Monitor Project in the Object Oriented Programming Course of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
+System Monitor Project developed in the Object Oriented Programming Course of the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). 
 
 Follow along with the classroom lesson to complete the project!
 
 ![System Monitor](images/monitor.png)
-
-## Udacity Linux Workspace
-[Udacity](https://www.udacity.com/) provides a browser-based Linux [Workspace](https://engineering.udacity.com/creating-a-gpu-enhanced-virtual-desktop-for-udacity-497bdd91a505) for students. 
-
-You are welcome to develop this project on your local machine, and you are not required to use the Udacity Workspace. However, the Workspace provides a convenient and consistent Linux development environment we encourage you to try.
 
 ## ncurses
 [ncurses](https://www.gnu.org/software/ncurses/) is a library that facilitates text-based graphical output in the terminal. This project relies on ncurses for display output.
@@ -38,4 +33,20 @@ This project uses [Make](https://www.gnu.org/software/make/). The Makefile has f
 
 5. Implement the `System`, `Process`, and `Processor` classes, as well as functions within the `LinuxParser` namespace.
 
-6. Submit!
+### Debugging with VSCode
+
+In addition I list below the steps used to debug this project using VS Code and [here](https://youtu.be/pThGzmT0C7E) is a video showing the steps.
+1.	Create a .vscode directory in your project directory
+2.	Copy the launch.json file (you see in the video) inside the .vscode directory
+3.	Make sure you have the Makefile file in your project directory
+4.	Run the commands
+
+    4.1 "make clean" and "make debug"
+
+5. The first command will cleanup unnecessary files and second command will generate your monitor project in debug mode
+6. Open VS code inside the project directory
+7. Set a breakpoint in a cpp file you want to stop
+8. Click Debug > Start debugging
+9. The program will stop in the first breakpoint
+
+And voila, happy debugging!
