@@ -1,5 +1,4 @@
 #include <string>
-
 #include "format.h"
 
 using std::string;
