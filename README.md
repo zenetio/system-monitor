@@ -49,4 +49,8 @@ In addition I list below the steps used to debug this project using VS Code and 
 8. Click Debug > Start debugging
 9. The program will stop in the first breakpoint
 
+<<<<<<< HEAD
 And voila, happy debugging!
+=======
+And voila, happy debugging!
+>>>>>>> a4a19588c833c59ff7dc61ffdada96c792ddd952
